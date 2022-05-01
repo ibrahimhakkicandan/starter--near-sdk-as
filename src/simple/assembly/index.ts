@@ -4,7 +4,7 @@ import { storage, Context } from "near-sdk-as"
 export function helloWorld(names: Array<string>): string {
   return names.map<string>(name => 'hello ' + name).join(` `)
 }
-
+// changed something
 
 // read the given key from account (contract) storage
 export function read(key: string): string {
